@@ -1,0 +1,36 @@
+body {
+  width: 600px;
+  margin: auto;
+  font-family: "Helvitica", sans-serif;
+  background: linear-gradient(aqua, blue, black) no-repeat center;
+  background-size: cover;
+}
+
+.area,
+.perimeter {
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  background-color: white;
+  width: 70%;
+}
+
+.calculate {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+p {
+  text-align: left;
+  padding-left: 30px;
+}

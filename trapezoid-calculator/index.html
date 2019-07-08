@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trapezoid Calculator</title>
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+  <div class='area'>
+    <h1> Trapezoid Area Calculator</h1>
+    <h3>A = (a+b)/2 * h</h3>
+    <hr>
+
+    <!-- Instructions -->
+    <p>Enter the inputs and then click the <span class='calculate'>CALCULATE</span> button... </p>
+
+    <!-- Input -->
+    <p>Length of top base (a): <input id='a1' type='number'></p>
+    <p>Length of bottom base (b): <input id='b1' type='number'></p>
+    <p>Height (h): <input id='h1' type='number'></p>
+    <p>
+      <button id='calc-btn1'>CALCULATE</button>
+    </p>
+
+    <!-- Output -->
+    <p>Area: <span id='area'>----</span>
+    </p>
+  </div>
+
+  <img src="Trapezoid.svg.png" alt="trapezoid diagram">;
+
+  <div class='perimeter'>
+    <h1> Trapezoid Perimeter Calculator</h1>
+    <h3>P = DC + CB + BA + AD</h3>
+    <hr>
+
+    <!-- Instructions -->
+    <p>Enter the inputs and then click the <span class='calculate'>CALCULATE</span> button... </p>
+
+    <!-- Input -->
+    <p>Length of DC: <input id='side1' type='number'></p>
+    <p>Length of CB: <input id='side2' type='number'></p>
+    <p>Length of BA: <input id='side3' type='number'></p>
+    <p>Length of AD: <input id='side4' type='number'></p>
+    <p>
+      <button id='calc-btn2'>CALCULATE</button>
+    </p>
+
+    <!-- Output -->
+    <p>Perimeter: <span id='perimeter'>----</span>
+    </p>
+
+
+  </div>
+  <!--Load JS-->
+  <script src='main.js'></script>
+</body>
+
+</html>
